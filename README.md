@@ -19,3 +19,4 @@
 4.	Зробити git push у віддалений репозиторій у вітку lab_works_one_two.
 ![image](https://i.ibb.co/4MfnnV1/image.png)
 5.	Додати в файл Readme звіт до лабораторної, щоб його можна було передивлятись на репозиторію коли переходиш у вітку.
+![image](https://i.ibb.co/JRWJ91P/image.png)
