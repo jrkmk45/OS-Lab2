@@ -24,7 +24,7 @@
 Була виконана команда docker compose up для створення образів:
 ![image](./images/Screenshot_1.png)
 
-![image](./images/Screenshot_2.png)
+![image](./images/Screenshot_2.png)\
 За адресою localhost:8080 отримав доступ до CMS WordPress та створив сайт.
 
 ### 2. Використання Docker Compose. Описати теоретично що таке Docker Compose, чому саме розширення .yml а також навести переваги та недоліки його використання. Навести приклад створення та збирання образа за допомогою Docker Compose.
