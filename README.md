@@ -21,7 +21,7 @@
 
 ![image](./images/Screenshot_5.png)
 
-Була виконана команда docker compose up для створення образів:
+Була виконана команда docker compose up для створення образів:\
 ![image](./images/Screenshot_1.png)
 
 ![image](./images/Screenshot_2.png)\
