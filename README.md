@@ -75,6 +75,6 @@ docker compose - інструмент, який дозволяє керуват�
 Запулив Docker Image з віддаленого репозиторію:\
 ![image](./images/Screenshot_13.png)\
 Запустив його в контейнері:\
-![image](./images/Screenshot_14.png)
+![image](./images/Screenshot_14.png)\
 Результат:\
 ![image](./images/Screenshot_15.png)
