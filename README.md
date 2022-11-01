@@ -18,9 +18,9 @@ terraform init\
 terraform validate\
 terraform plan\
 terraform apply\
-Результат виконання:
+Результат виконання:\
 ![image](./images/Screenshot_1.png)\
-![image](./images/Screenshot_2.png)
+![image](./images/Screenshot_2.png)\
 ### Отже на основі конфігурацій створився інстанс на aws
 Змінив вміст html файлу, отримавши доступ до терміналу інстансу.\
 ![image](./images/Screenshot_3.png)\
