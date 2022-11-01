@@ -1,22 +1,20 @@
-# Лабораторна робота №2
+# Лабораторна робота №4
+## Виконав студент 3 курсу ІПЗ, 1 групи, Кіш Роберт Робертович
 
 ## План:
-1.	Пройти гру Git Learn та зробити скріншоти пройдених рівнів.
-2.	Зробити git init папки із файлом  hello.txt та bash скриптом.
-3.	Зробити git commit.
-4.	Зробити git push у віддалений репозиторій у вітку lab_works_one_two.
-5.	Додати в файл Readme звіт до лабораторної, щоб його можна було передивлятись на репозиторію коли переходиш у вітку.
-
+Create terraform scenario for provisioning infrastructure on GCP (or AWS) cloud Requirement 
+1. Create one instance (image: ubuntu 20.04) 
+2. Allow HTTP/HTTPS traffic on a NIC 
+3. Provision one SSH public key for created instance 
+4. Install Web Server (Apache HTTP Server / NGINX HTTP Server) via bash scenario
 
 ## Хід Роботи
-1. Пройти гру Git Learn та зробити скріншоти пройдених рівнів.
-![image](https://i.ibb.co/zrY7pdB/326.png)
-![image](https://i.ibb.co/yyv7k8Z/325.png)
-2. Зробити git init папки із файлом hello.txt та bash скриптом.
-![image](https://i.ibb.co/Y386Wvy/image.png)
-3. Зробити git commit.
-![image](https://i.ibb.co/HgdY2j0/image.png)
-4. Зробити git push у віддалений репозиторій у вітку lab_works_one_two.
-![image](https://i.ibb.co/4MfnnV1/image.png)
-5. Додати в файл Readme звіт до лабораторної, щоб його можна було передивлятись на репозиторію коли переходиш у вітку.
-![image](https://i.ibb.co/JRWJ91P/image.png)
+Створив ключ SSH, завантажив його та вставив в конфігурацію.\
+![image](./images/Screenshot_1.png)
+![image](./images/Screenshot_2.png)\
+Дозвіл HTTP/HTTPS трафіку в конфігураційному файлі:\
+![image](./images/Screenshot_3.png)
+Створення необхідного інстансу в конфігураційному файлі:\
+![image](./images/Screenshot_4.png)
+Встановлення веб серверу за допомогою bash скрипта:\
+![image](./images/Screenshot_5.png)
