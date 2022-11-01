@@ -13,8 +13,8 @@ Create terraform scenario for provisioning infrastructure on GCP (or AWS) cloud 
 ![image](./images/Screenshot_1.png)
 ![image](./images/Screenshot_2.png)\
 Дозвіл HTTP/HTTPS трафіку в конфігураційному файлі:\
-![image](./images/Screenshot_3.png)
+![image](./images/Screenshot_3.png)\
 Створення необхідного інстансу в конфігураційному файлі:\
-![image](./images/Screenshot_4.png)
+![image](./images/Screenshot_4.png)\
 Встановлення веб серверу за допомогою bash скрипта:\
 ![image](./images/Screenshot_5.png)
