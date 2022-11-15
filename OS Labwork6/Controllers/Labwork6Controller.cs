@@ -17,7 +17,7 @@ namespace OS_Labwork6.Controllers
         [HttpGet("Get")]
         public ActionResult<string> Get()
         {
-            string res = "Лабораторна робота №6. Виконав Кіш Роберт Робертович, студент 3 курсі ІПЗ";
+            string res = "Lab6 CI/CD workflow test";
             return Ok(res);
         }
     }
