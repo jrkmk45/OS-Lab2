@@ -25,9 +25,3 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-
-#    - name: Publish
-#      run: dotnet publish -c Release /actions-runner/_work/OS-Labs/OS-Labs/
-
-    - name: Run
-      run: sudo kill -9 `sudo lsof -t -i:80` & dotnet "/home/actions-runner/_work/OS-Labs/OS-Labs/OS Labwork6/bin/Debug/net6.0/OS Labwork6.dll"
