@@ -30,7 +30,7 @@ jobs:
       run: dotnet publish -c Release /home/actions-runner/_work/OS-Labs/OS-Labs/
       
     - name: port
-      run: sudo lsof -t -i:80
+      run: sudo lsof -t -i:80 &
 
     - name: Run
-      run: dotnet "/home/actions-runner/_work/OS-Labs/OS-Labs/OS Labwork6/bin/Release/net6.0/OS Labwork6.dll" &
+      run: sudo dotnet "/home/actions-runner/_work/OS-Labs/OS-Labs/OS Labwork6/bin/Release/net6.0/OS Labwork6.dll" &
