@@ -28,12 +28,9 @@ jobs:
 
     - name: Publish
       run: dotnet publish -c Release /home/actions-runner/_work/OS-Labs/OS-Labs/
-    
-    - name: kill
-      run: sudo kill -9 `lsof -t -i:80` &
 
     - name: open
-      run: cd "/home/actions-runner/_work/OS-Labs/OS-Labs/OS Labwork6/bin/Release/net6.0" &
+      run: cd "/home/actions-runner/_work/OS-Labs/OS-Labs/OS Labwork6/bin/Release/net6.0"
 
     - name: Run        
-      run: sudo dotnet "./OS Labwork6.dll" &
+      run: sudo kill -9 `lsof -t -i:80` & sudo dotnet "./OS Labwork6.dll" &
