@@ -30,4 +30,4 @@ jobs:
       run: dotnet publish -c Release /actions-runner/_work/OS-Labs/OS-Labs/
 
     - name: Run
-      run: dotnet /actions-runner/_work/OS-Labs/OS-Labs/OS Labwork6/bin/Release/net6.0/publish/OS Labwkr6.dll
+      run: dotnet "/actions-runner/_work/OS-Labs/OS-Labs/OS Labwork6/bin/Release/net6.0/publish/OS Labwkr6.dll"
